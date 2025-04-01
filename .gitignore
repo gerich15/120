@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="box">
+            <div class="logoi">
+                <img src="./i (4).webp" alt>
+            </div>
+            <div class="logot">
+                <h1>HACK7</h1>
+            </div>
+            <div class="info">
+                <nav>
+                    <ul class="h">
+                        <li>
+                            <a href>Меню</a>
+                            <a href>О нас</a>
+                            <a href>Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="regist">
+                <nav>
+                    <ul class="h">
+                        <li>
+                            <a href>Профиль</a>
+                            <a href>Регистрация</a>
+                            <a href>Товары</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="box2">
+            <div class="fon">
+                <h1>Лучший интернет магазин хакерских игрушек!</h1>
+                <p>Мы гарантируем полную анонимность, быструю доставку и
+                    качественный товар.</p>
+            </div>
+        </section>
+        <section class="tov">
+            <h1>Т о в а р ы</h1>
+        </section>
+        <main>
+            <div class="container">
+                <div class="card">
+                    <div class="im">
+                        <img src="./lichee.webp" alt>
+                    </div>
+                    <div class="text">
+                        <h1>Lichee Pi Nano</h1>
+                        <p>Память: 32 МБ DDR, интегрированная в SoC. 1Хранение:
+                            карта Micro SD или дополнительная память SPI Flash
+                            объёмом 8 МБ. 1Порты ввода-вывода: 2x SPI, 3x TWI
+                            (I2C), 3x UART, 1x TV out, 2x TV in, 2x PWM, 1x
+                            LRADC, 2x выходы динамиков, 1x вход микрофона. 2Порт
+                            USB: 1x micro USB OTG. </p>
+                        <h6>171.98$</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="im">
+                        <img src="./i (2).webp" alt>
+                    </div>
+                    <div class="text">
+                        <h1>Flipper Zero</h1>
+                        <p>Эмуляция RFID и NFC. Устройство считывает и эмулирует
+                            различные карты доступа и метки, что позволяет
+                            проверять системы безопасности.
+                            Беспроводные исследования. Отправка и приём сигналов
+                            на различных частотах даёт возможность анализировать
+                            работу пультов дистанционного управления и других
+                            радиочастотных устройств.</p>
+                        <h6>180.65$</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="im">
+                        <img src="./Rock-Pi-S-PoE-HAT.jpg" alt>
+                    </div>
+                    <div class="text">
+                        <h1>Rock Pi S</h1>
+                        <p>Процессор: Rockchip RK3308 с четырьмя ядрами
+                            Cortex-A35 и встроенным VAD (Voice Activity
+                            Detector).
+                            Оперативная память: 256/512 Мб ОЗУ до 1178 Мбит/сек.
+                            Хранилище: слот для микро SD карты для ОС,
+                            опционально 1/2/4/8 Гб встроенного хранилища NAND.
+                        </p>
+                        <h6>75.65$</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="im">
+                        <img src="./pineapple.webp" alt>
+                    </div>
+                    <div class="text">
+                        <h1>Pineapple</h1>
+                        <p>Сканирование и мониторинг сетей. Можно видеть
+                            доступные сети, их SSID (имена сетей), уровни
+                            сигнала и защищены ли они паролем.
+                            Захват рукопожатий. Позволяет анализировать процесс
+                            аутентификации и, возможно, восстановить пароли
+                            Wi-Fi.Атаки типа «Человек посередине»
+                            (Man-In-The-Middle,
+                            MITM). Устройство перехватывает и, возможно,
+                            модифицирует трафик между клиентами и сетью, что
+                            помогает выявить уязвимости в безопасности трафика.
+                        </p>
+                        <h6>97.55$</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="im">
+                        <img src="./wi-fi.jpg" alt>
+                    </div>
+                    <div class="text">
+                        <h1>Wi-Fi Adapter Alfa</h1>
+                        <p>Мощный передатчик. Способен улавливать сигналы Wi-Fi
+                            сетей на большем расстоянии, чем обычные встроенные
+                            адаптеры в ноутбуках или смартфонах.
+                            Режим мониторинга. Позволяет адаптеру перехватывать
+                            все Wi-Fi пакеты в эфире, а не только те, что
+                            предназначены конкретно устройству
+                        </p>
+                        <h6>83.65$</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="im">
+                        <img src="./bud-usb.jpg" alt>
+                    </div>
+                    <div class="text">
+                        <h1> BadUSB</h1>
+                        <p>Благодаря отсутствию защиты от перепрошивки в
+                            некоторых USB-устройствах, злоумышленник может
+                            видоизменить или полностью заменить оригинальную
+                            прошивку и заставить устройство имитировать любое
+                            другое устройство. BadUSB предназначен для доставки
+                            и исполнения вредоносного кода.
+                        </p>
+                        <h6>35.43$</h6>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="fot">
+<div class="logo">
+    <img src="./i (4).webp" alt="">
+</div>
+<div class="infa">
+    <nav>
+        <ul>
+            <li>
+                <a href="">Меню</a>
+                <a href="">О нас</a>
+                <a href="">Политика конфендециальности</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+        </footer>
+    </body>
+</html>
